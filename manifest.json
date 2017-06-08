@@ -1,0 +1,37 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "whatsapp_popup@wallacesilva.com"
+    }
+  },
+
+  "manifest_version": 2,
+  "name": "WhatsApp Popup",
+  "version": "0.2",
+  "strict_min_version": "48.0",
+  "author": "Wallace Silva",
+  "developer": {
+    "name": "Wallace Silva",
+    "url": "https://github.com/wallacesilva/"
+  },
+
+  "description": "Show minimal WhatsApp popup. No advanced features.",
+
+  "homepage_url": "https://github.com/wallacesilva/whatsapp_popup",
+
+  "icons": {
+    "48": "icons/whatsapp_48.png",
+    "64": "icons/whatsapp_64.png",
+    "128": "icons/whatsapp_128.png"
+  },
+
+  "background": {
+      "scripts": ["js/main.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/whatsapp_48.png",
+    "default_title": "WhatsApp Popup"
+  }
+
+}
